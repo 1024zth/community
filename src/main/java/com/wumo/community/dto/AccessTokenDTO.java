@@ -1,8 +1,5 @@
 package com.wumo.community.dto;
 
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
-
 public class AccessTokenDTO {
     private String client_id;
     private String client_secret;
